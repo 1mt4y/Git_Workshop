@@ -11,5 +11,27 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: azure;
+    background-color: gray;
+}
+
+.search-bar, .button {
+    outline: none;
+    border: 0;
+    padding: .5em 1em;
+    border-radius: 1000vmax;
+}
+
+.search-bar:focus{
+    border: 2px solid black;
+    transition: .2s;
+}
+
+.button {
+    background-color: royalblue;
+    color: white;
+}
+
+.button:hover {
+    background-color: darkblue;
+    transition: .2s;
 }
